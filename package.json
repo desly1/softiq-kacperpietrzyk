@@ -1,0 +1,22 @@
+{
+  "name": "softiq-cypress-kacperpietrzyk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kacperp1993/softiq.git"
+  },
+  "author": "Kacper Pietrzyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kacperp1993/softiq/issues"
+  },
+  "homepage": "https://github.com/kacperp1993/softiq#readme",
+  "devDependencies": {
+    "cypress": "^8.2.0"
+  }
+}
