@@ -14,6 +14,7 @@ describe("avoid_error", () => {
       cy.get('#email_create').type(testmail).should("have.value", testmail).blur()
       cy.get('.form-ok').should('be.visible')
       cy.get('#SubmitCreate').click()
-      
+      cy.get('.page-subheading').contains('Your personal information').should('be.visible')
+      cy.get('#id_gender1').select()
     })
   })
